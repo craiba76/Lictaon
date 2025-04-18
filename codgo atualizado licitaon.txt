@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LICITON - Sua Agenda de Licitações Inteligente</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f8fb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .benefits {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .benefit {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      flex: 1 1 300px;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .cta a {
+      background-color: #004080;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    .lead-form {
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      margin-top: 50px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .lead-form input, .lead-form button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .lead-form button {
+      background-color: #004080;
+      color: white;
+      border: none;
+      font-size: 16px;
+    }
+    .video-demo {
+      text-align: center;
+      margin: 60px 0;
+    }
+    .video-demo iframe {
+      width: 100%;
+      max-width: 700px;
+      height: 400px;
+      border: none;
+      border-radius: 10px;
+    }
+    .social {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .social a {
+      margin: 0 10px;
+      display: inline-block;
+      text-decoration: none;
+      color: #004080;
+      font-size: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #e4e4e4;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Domine o Mundo das Licitações com o LICITON</h1>
+    <p>A ferramenta completa para organizar, acompanhar e vencer processos licitatórios</p>
+  </header>
+
+  <div class="container">
+    <h2>O que o LICITON faz por você?</h2>
+    <div class="benefits">
+      <div class="benefit">
+        <h3>✅ Organização Automática</h3>
+        <p>Centralize datas, portais e oportunidades em um sistema prático e eficiente.</p>
+      </div>
+      <div class="benefit">
+        <h3>✅ Alertas Estratégicos</h3>
+        <p>Receba alertas sonoros e visuais para nunca mais perder um prazo.</p>
+      </div>
+      <div class="benefit">
+        <h3>✅ Acesso Seguro</h3>
+        <p>Login por usuário com senha para proteger seus dados e processos.</p>
+      </div>
+      <div class="benefit">
+        <h3>✅ Salvamento Local e Backup</h3>
+        <p>Todos os dados são salvos automaticamente. Tranquilidade total.</p>
+      </div>
+    </div>
+
+    <div class="cta">
+      <h2>Licite com estratégia. Vença com o LICITON.</h2>
+      <a href="#form">Quero usar o LICITON agora</a>
+    </div>
+
+    <div class="video-demo">
+      <h2>Veja o LICITON em ação</h2>
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+    </div>
+
+    <div class="lead-form" id="form">
+      <h2>Cadastre-se para receber o acesso gratuito</h2>
+      <form>
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="email" name="email" placeholder="Seu e-mail" required>
+        <button type="submit">Quero acessar o LICITON</button>
+      </form>
+    </div>
+
+    <div class="social">
+      <h3>Fale conosco</h3>
+      <a href="https://wa.me/5500000000000" target="_blank">WhatsApp</a>
+      <a href="#">Instagram</a>
+      <a href="#">LinkedIn</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 LICITON. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
